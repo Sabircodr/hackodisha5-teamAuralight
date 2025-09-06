@@ -1,0 +1,95 @@
+{
+  "downloadLinks": [
+    {
+      "name": "mAgicmirRor",
+      "url": "https://drive.google.com/",
+      "platform": "Google Drive",
+      "icon": "fab fa-google-drive",
+      "fileSize": "215 MB",
+      "version": "v0.2.0",
+      "type": "app"
+    },
+    {
+      "name": "mAgicmirRor",
+      "url": "https://mega.nz/file/SBdj3QIY#ozDH0TUoF5VxhYs7avR2BhPKXC_Wj4rbk5vR_QtbcWc",
+      "platform": "MEGA Cloud",
+      "icon": "fas fa-cloud",
+      "fileSize": "215 MB",
+      "version": "v0.2.0",
+      "type": "app"
+    },
+    {
+      "name": "mAgicmirRor",
+      "url": "#",
+      "platform": "Direct Download",
+      "icon": "fas fas fa-download",
+      "fileSize": "215 MB",
+      "version": "v0.2.0",
+      "type": "app"
+    },
+    {
+      "name": "mAgicmiRror_Animal_Around_Us",
+      "url": "https://drive.google.com/",
+      "platform": "Google Drive",
+      "icon": "fab fa-google-drive",
+      "fileSize": "1.15 MB",
+      "version": "Edition 2025",
+      "type": "book"
+    },
+    {
+      "name": "mAgicmiRror_Animal_Around_Us",
+      "url": "https://mega.nz/file/nF8EjaID#pIvdt4dHBjqKLDMBHtjqkUy3duqdMXkDcveeuPmyJtw",
+      "platform": "MEGA Cloud",
+      "icon": "fas fa-cloud",
+      "fileSize": "1.15 MB",
+      "version": "Edition 2025",
+      "type": "book"
+    },
+    {
+      "name": "mAgicmiRror_Animal_Around_Us",
+      "url": "mAgicmiRror_Animal_Around_Us.pdf",
+      "platform": "Direct Link",
+      "icon": "fas fa-download",
+      "fileSize": "1.15 MB",
+      "version": "Edition 2025",
+      "type": "book"
+    }
+  ],
+  "developers": [
+    {
+      "name": "Sabir Mallick",
+      "role": "Web Lead",
+      "description": "Frontend specialist with expertise in modern web technologies and user experience design. Leads the development of responsive web interfaces.",
+      "github": "https://github.com/Sabircodr",
+      "linkedin": "https://www.linkedin.com/in/sab1r-mallick"
+    },
+    {
+      "name": "Vijaya Laxmi Kumari",
+      "role": "AR Developer",
+      "description": "Augmented reality engineer specializing in mobile AR applications and computer vision. Develops the core AR functionality and tracking systems.",
+      "github": "https://github.com/VIJAYA9508",
+      "linkedin": "https://www.linkedin.com/in/vijayalaxmikumari"
+    },
+    {
+      "name": "Aashtha Kumari",
+      "role": "3D Model Designer",
+      "description": "3D artist focused on creating low-poly models optimized for AR. Also collects and edits augmentable Vuforia images to ensure high tracking quality.",
+      "github": "https://github.com/Aashtha2405",
+      "linkedin": "https://www.linkedin.com/in/aashtha-kumari-797072342"
+    },
+    {
+      "name": "Vashist Narayan",
+      "role": "Content Strategist",
+      "description": "Curates audio and video content for AR experiences and prepares structured PDF resources. Ensures engaging and curriculum-aligned educational content.",
+      "github": "https://github.com/VASHIST9931",
+      "linkedin": "https://www.linkedin.com/in/vashist-narayan-singh-261522371"
+    },
+    {
+      "name": "Shreya Karmakar",
+      "role": "Content Editor",
+      "description": "Creates engaging video content through scripting, editing, and visual storytelling. Enhances the project’s communication and presentation with polished media outputs.",
+      "github": "https://github.com/FaylinnStar",
+      "linkedin": "https://www.linkedin.com/in/shreya-karmakar-798a80277"
+    }
+  ]
+}
