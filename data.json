@@ -2,7 +2,7 @@
   "downloadLinks": [
     {
       "name": "mAgicmirRor",
-      "url": "https://drive.google.com/",
+      "url": "https://drive.google.com/file/d/1d68UFxrOXYgbRaQv1WEqbk-l3hW9bilx/view?usp=drive_link",
       "platform": "Google Drive",
       "icon": "fab fa-google-drive",
       "fileSize": "215 MB",
@@ -20,8 +20,8 @@
     },
     {
       "name": "mAgicmirRor",
-      "url": "#",
-      "platform": "Direct Download",
+      "url": "https://u.pcloud.link/publink/show?code=BJUrtalK",
+      "platform": "pCloud",
       "icon": "fas fas fa-download",
       "fileSize": "215 MB",
       "version": "v0.2.0",
@@ -29,7 +29,7 @@
     },
     {
       "name": "mAgicmiRror_Animal_Around_Us",
-      "url": "https://drive.google.com/",
+      "url": "https://drive.google.com/file/d/1Gdfam2-8J8S2L_2wf8Gt4cqX-dkaxJnm/view?usp=drive_link",
       "platform": "Google Drive",
       "icon": "fab fa-google-drive",
       "fileSize": "1.15 MB",
