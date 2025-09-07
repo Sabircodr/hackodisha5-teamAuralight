@@ -50,33 +50,83 @@ async function loadData() {
         const response = await fetch('./data.json');
         const data = await response.json();
         
-        renderDownloadLinks(data.downloadLinks);
+        renderDownloadProducts(data.downloads);
         renderTeamMembers(data.developers);
     } catch (error) {
         console.error('Error loading data:', error);
     }
 }
 
-// Render download links
-function renderDownloadLinks(downloadLinks) {
-    const appDownloads = document.getElementById('appDownloads');
-    const bookDownloads = document.getElementById('bookDownloads');
+// Render download products
+function renderDownloadProducts(downloads) {
+    const downloadProducts = document.getElementById('downloadProducts');
     
-    // Filter downloads by type
-    const appLinks = downloadLinks.filter(link => link.type === 'app');
-    const bookLinks = downloadLinks.filter(link => link.type === 'book');
-    
-    // Render app downloads
-    appLinks.forEach(link => {
-        const downloadBtn = createDownloadButton(link);
-        appDownloads.appendChild(downloadBtn);
+    Object.keys(downloads).forEach(productKey => {
+        const product = downloads[productKey];
+        const productSection = createProductSection(product);
+        downloadProducts.appendChild(productSection);
     });
+}
+
+// Create product section element
+function createProductSection(product) {
+    const productDiv = document.createElement('div');
+    productDiv.className = 'download-product';
     
-    // Render book downloads
-    bookLinks.forEach(link => {
-        const downloadBtn = createDownloadButton(link);
-        bookDownloads.appendChild(downloadBtn);
-    });
+    productDiv.innerHTML = `
+        <div class="product-header">
+            <h3 class="product-title">${product.name}</h3>
+            <p class="product-description">${product.description}</p>
+        </div>
+        
+        <div class="product-downloads">
+            <div class="download-category">
+                <h4 class="download-category-title">
+                    <i class="fas fa-mobile-alt"></i>
+                    Download the App
+                </h4>
+                <div class="download-buttons app-downloads">
+                    ${product.app.map(app => createDownloadButtonHTML(app)).join('')}
+                </div>
+            </div>
+            
+            <div class="download-category">
+                <h4 class="download-category-title">
+                    <i class="fas fa-book"></i>
+                    Download the Book
+                </h4>
+                <div class="download-buttons book-downloads">
+                    ${product.book.map(book => createDownloadButtonHTML(book)).join('')}
+                </div>
+            </div>
+        </div>
+    `;
+    
+    return productDiv;
+}
+
+// Create download button HTML
+function createDownloadButtonHTML(link) {
+    const isDirectLink = link.platform === 'Direct Link';
+    const downloadAttr = isDirectLink ? `download="${link.name || ''}"` : '';
+    const targetAttr = isDirectLink ? '' : 'target="_blank" rel="noopener noreferrer"';
+    
+    return `
+        <a href="${link.url}" class="download-btn" ${targetAttr} ${downloadAttr}>
+            <div class="download-btn-content">
+                <div class="download-btn-icon">
+                    <i class="${link.icon}"></i>
+                </div>
+                <div class="download-btn-info">
+                    <div class="download-btn-name">${link.platform}</div>
+                    <div class="download-btn-details">${link.fileSize} • ${link.version}</div>
+                </div>
+            </div>
+            <div class="download-btn-arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </a>
+    `;
 }
 
 // Create download button element

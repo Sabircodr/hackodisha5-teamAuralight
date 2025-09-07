@@ -1,60 +1,102 @@
 {
-  "downloadLinks": [
-    {
-      "name": "mAgicmirRor",
-      "url": "https://drive.google.com/file/d/1d68UFxrOXYgbRaQv1WEqbk-l3hW9bilx/view?usp=drive_link",
-      "platform": "Google Drive",
-      "icon": "fab fa-google-drive",
-      "fileSize": "215 MB",
-      "version": "v0.2.0",
-      "type": "app"
+  "downloads": {
+    "mAgicmiRror": {
+      "name": "mAgicmiRror",
+      "description": "Transform learning with AR technology. Scan textbook images to bring 3D models to life with interactive experiences.",
+      "app": [
+        {
+          "name": "mAgicmirRor",
+          "url": "https://drive.google.com/file/d/1d68UFxrOXYgbRaQv1WEqbk-l3hW9bilx/view?usp=drive_link",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "215 MB",
+          "version": "v0.2.0"
+        },
+        {
+          "name": "mAgicmirRor",
+          "url": "https://mega.nz/file/SBdj3QIY#ozDH0TUoF5VxhYs7avR2BhPKXC_Wj4rbk5vR_QtbcWc",
+          "platform": "MEGA Cloud",
+          "icon": "fas fa-cloud",
+          "fileSize": "215 MB",
+          "version": "v0.2.0"
+        },
+        {
+          "name": "mAgicmirRor",
+          "url": "https://u.pcloud.link/publink/show?code=BJUrtalK",
+          "platform": "pCloud",
+          "icon": "fas fa-download",
+          "fileSize": "215 MB",
+          "version": "v0.2.0"
+        }
+      ],
+      "book": [
+        {
+          "name": "mAgicmiRror_Animal_Around_Us",
+          "url": "https://drive.google.com/file/d/1Gdfam2-8J8S2L_2wf8Gt4cqX-dkaxJnm/view?usp=drive_link",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "1.15 MB",
+          "version": "Edition 2025"
+        },
+        {
+          "name": "mAgicmiRror_Animal_Around_Us",
+          "url": "https://mega.nz/file/nF8EjaID#pIvdt4dHBjqKLDMBHtjqkUy3duqdMXkDcveeuPmyJtw",
+          "platform": "MEGA Cloud",
+          "icon": "fas fa-cloud",
+          "fileSize": "1.15 MB",
+          "version": "Edition 2025"
+        },
+        {
+          "name": "mAgicmiRror_Animal_Around_Us",
+          "url": "mAgicmiRror_Animal_Around_Us.pdf",
+          "platform": "Direct Link",
+          "icon": "fas fa-download",
+          "fileSize": "1.15 MB",
+          "version": "Edition 2025"
+        }
+      ]
     },
-    {
-      "name": "mAgicmirRor",
-      "url": "https://mega.nz/file/SBdj3QIY#ozDH0TUoF5VxhYs7avR2BhPKXC_Wj4rbk5vR_QtbcWc",
-      "platform": "MEGA Cloud",
-      "icon": "fas fa-cloud",
-      "fileSize": "215 MB",
-      "version": "v0.2.0",
-      "type": "app"
-    },
-    {
-      "name": "mAgicmirRor",
-      "url": "https://u.pcloud.link/publink/show?code=BJUrtalK",
-      "platform": "pCloud",
-      "icon": "fas fas fa-download",
-      "fileSize": "215 MB",
-      "version": "v0.2.0",
-      "type": "app"
-    },
-    {
-      "name": "mAgicmiRror_Animal_Around_Us",
-      "url": "https://drive.google.com/file/d/1Gdfam2-8J8S2L_2wf8Gt4cqX-dkaxJnm/view?usp=drive_link",
-      "platform": "Google Drive",
-      "icon": "fab fa-google-drive",
-      "fileSize": "1.15 MB",
-      "version": "Edition 2025",
-      "type": "book"
-    },
-    {
-      "name": "mAgicmiRror_Animal_Around_Us",
-      "url": "https://mega.nz/file/nF8EjaID#pIvdt4dHBjqKLDMBHtjqkUy3duqdMXkDcveeuPmyJtw",
-      "platform": "MEGA Cloud",
-      "icon": "fas fa-cloud",
-      "fileSize": "1.15 MB",
-      "version": "Edition 2025",
-      "type": "book"
-    },
-    {
-      "name": "mAgicmiRror_Animal_Around_Us",
-      "url": "mAgicmiRror_Animal_Around_Us.pdf",
-      "platform": "Direct Link",
-      "icon": "fas fa-download",
-      "fileSize": "1.15 MB",
-      "version": "Edition 2025",
-      "type": "book"
+    "PlaNets": {
+      "name": "PlaNets",
+      "description": "Explore the solar system through immersive AR. Discover planets, moons, and celestial bodies in stunning 3D detail.",
+      "app": [
+        {
+          "name": "PlaNets",
+          "url": "https://drive.google.com/planets-app",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "180 MB",
+          "version": "v1.0.0"
+        },
+        {
+          "name": "PlaNets",
+          "url": "https://mega.nz/planets-app",
+          "platform": "MEGA Cloud",
+          "icon": "fas fa-cloud",
+          "fileSize": "180 MB",
+          "version": "v1.0.0"
+        }
+      ],
+      "book": [
+        {
+          "name": "PlaNets_Solar_System_Guide",
+          "url": "https://drive.google.com/planets-book",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "2.3 MB",
+          "version": "Edition 2025"
+        },
+        {
+          "name": "PlaNets_Solar_System_Guide",
+          "url": "PlaNets_Solar_System_Guide.pdf",
+          "platform": "Direct Link",
+          "icon": "fas fa-download",
+          "fileSize": "2.3 MB",
+          "version": "Edition 2025"
+        }
+      ]
     }
-  ],
+  },
   "developers": [
     {
       "name": "Sabir Mallick",
