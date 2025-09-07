@@ -55,6 +55,46 @@
           "version": "Edition 2025"
         }
       ]
+    },
+    "PlaNets": {
+      "name": "mAgicmirRor_Planets",
+      "description": "Explore the solar system through immersive AR. Discover planets and the sun in our solar system.",
+      "app": [
+        {
+          "name": "mAgicmirRor_Planets",
+          "url": "https://drive.google.com/file/d/1NkbmDEQnkKiZLuUpSvVtujFJLVBiea2W/view?usp=drive_link",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "81 MB",
+          "version": "v0.1.0"
+        },
+        {
+          "name": "mAgicmirRor_Planets",
+          "url": "https://mega.nz/file/HA9xlAKB#VyXeQsG6B0U2OEMVj_4_Mhkmwu7DdT6q49FMZYnKDQM",
+          "platform": "MEGA Cloud",
+          "icon": "fas fa-cloud",
+          "fileSize": "81 MB",
+          "version": "v0.1.0"
+        }
+      ],
+      "book": [
+        {
+          "name": "mAgicmirRor_Planets",
+          "url": "https://drive.google.com/file/d/1cGGAg0JxRkmdVGxNqtU3PNZaDT785E0P/view?usp=drive_link",
+          "platform": "Google Drive",
+          "icon": "fab fa-google-drive",
+          "fileSize": "420 KB",
+          "version": "Edition 2025"
+        },
+        {
+          "name": "mAgicmirRor_Planets",
+          "url": "mAgicmirRor_Planets.pdf",
+          "platform": "Direct Link",
+          "icon": "fas fa-download",
+          "fileSize": "420 KB",
+          "version": "Edition 2025"
+        }
+      ]
     }
   },
   "developers": [
