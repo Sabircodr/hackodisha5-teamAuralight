@@ -55,46 +55,6 @@
           "version": "Edition 2025"
         }
       ]
-    },
-    "PlaNets": {
-      "name": "PlaNets",
-      "description": "Explore the solar system through immersive AR. Discover planets, moons, and celestial bodies in stunning 3D detail.",
-      "app": [
-        {
-          "name": "PlaNets",
-          "url": "https://drive.google.com/planets-app",
-          "platform": "Google Drive",
-          "icon": "fab fa-google-drive",
-          "fileSize": "180 MB",
-          "version": "v1.0.0"
-        },
-        {
-          "name": "PlaNets",
-          "url": "https://mega.nz/planets-app",
-          "platform": "MEGA Cloud",
-          "icon": "fas fa-cloud",
-          "fileSize": "180 MB",
-          "version": "v1.0.0"
-        }
-      ],
-      "book": [
-        {
-          "name": "PlaNets_Solar_System_Guide",
-          "url": "https://drive.google.com/planets-book",
-          "platform": "Google Drive",
-          "icon": "fab fa-google-drive",
-          "fileSize": "2.3 MB",
-          "version": "Edition 2025"
-        },
-        {
-          "name": "PlaNets_Solar_System_Guide",
-          "url": "PlaNets_Solar_System_Guide.pdf",
-          "platform": "Direct Link",
-          "icon": "fas fa-download",
-          "fileSize": "2.3 MB",
-          "version": "Edition 2025"
-        }
-      ]
     }
   },
   "developers": [
